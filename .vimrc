@@ -58,6 +58,11 @@ map <leader>ad :ALEDetail<cr>
 " YouCompleteMe
 map <leader>yd :YcmShowDetailedDiagnostic<cr>
 
+" ultisnips
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
 " pathogen插件管理
 execute pathogen#infect()
 
