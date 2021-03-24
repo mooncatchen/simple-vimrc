@@ -66,6 +66,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " pathogen插件管理
 execute pathogen#infect()
 
+filetype plugin indent on
+
 "设置语法高亮
 syntax enable
 syntax on
